@@ -45,7 +45,7 @@ ESW1#sh vtp status
 #### Resultado
 ![Topología](img/vtp1.png)
 
-# Configurar los modos de acceso y/o troncal en ESW1,ESW2,ESW3
+# Configurar los modos de acceso y/o troncal en ESW1,ESW2 
 
 
 ## MODO TRUNCAL
