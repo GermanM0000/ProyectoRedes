@@ -1,0 +1,47 @@
+Nov 21 21:44:09.599 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 21 21:44:09.599 HYPERVISOR: Started on IP = localhost, TCP port = 49827.
+Nov 21 21:44:09.850 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 21:44:09.850 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\50259\Desktop\REDES1\LAB\Proyecto\Topologia 1\project-files\dynamips 
+Nov 21 21:44:09.865 GENERAL: working_dir=C:\Users\50259\Desktop\REDES1\LAB\Proyecto\Topologia 1\project-files\dynamips
+Nov 21 21:44:09.865 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\50259\Desktop\REDES1\LAB\Proyecto\Topologia 1\project-files\dynamips\4273d63c-3c04-4674-8451-d0db73cedae1 
+Nov 21 21:44:09.865 GENERAL: working_dir=C:\Users\50259\Desktop\REDES1\LAB\Proyecto\Topologia 1\project-files\dynamips\4273d63c-3c04-4674-8451-d0db73cedae1
+Nov 21 21:44:09.865 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Nov 21 21:44:09.865 VM: VM R2 created.
+Nov 21 21:44:09.865 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5002 
+Nov 21 21:44:09.865 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Nov 21 21:44:09.865 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Nov 21 21:44:09.865 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Nov 21 21:44:09.865 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 21:44:09.865 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x602467a4 
+Nov 21 21:44:09.865 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/50259/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 21 21:44:09.865 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c202.2874.0000 
+Nov 21 21:44:09.880 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Nov 21 21:44:09.880 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 21:44:09.880 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-4T 
+Nov 21 21:44:19.243 HYPERVISOR: exec_cmd: nio create_udp udp-65ab7f76-37de-4600-80aa-6c44223ad72e 10062 127.0.0.1 10063 
+Nov 21 21:44:19.540 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-65ab7f76-37de-4600-80aa-6c44223ad72e 
+Nov 21 21:44:19.540 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 21:44:19.696 HYPERVISOR: exec_cmd: nio create_udp udp-7049cccf-d7ec-4c3d-b877-920d0bd13667 10068 127.0.0.1 10069 
+Nov 21 21:44:19.711 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-7049cccf-d7ec-4c3d-b877-920d0bd13667 
+Nov 21 21:44:19.711 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 21:44:20.587 HYPERVISOR: exec_cmd: nio create_udp udp-e8ad34c3-aa83-4ef2-b317-4b9ece80ee34 10088 127.0.0.1 10089 
+Nov 21 21:44:20.602 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 1 udp-e8ad34c3-aa83-4ef2-b317-4b9ece80ee34 
+Nov 21 21:44:20.602 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 22:08:43.781 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Nov 21 22:08:43.783 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\50259\Desktop\REDES1\LAB\Proyecto\Topologia 1\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost 
+Nov 21 22:08:43.783 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 22:08:43.785 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Nov 21 22:08:43.785 HYPERVISOR: exec_cmd: vm start R2 
+Nov 21 22:54:01.985 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 22:54:01.987 HYPERVISOR: exec_cmd: vm stop R2 
+Nov 21 22:54:02.178 VM: VM R2 shutdown.
+Nov 21 22:54:02.181 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 21 22:54:46.707 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 22:54:46.709 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 21 22:54:48.443 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 22:54:48.445 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 21 22:54:48.454 HYPERVISOR: exec_cmd: vm delete R2 
+Nov 21 22:54:48.455 VM: VM R2 destroyed.
+Nov 21 22:54:48.496 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 21 22:54:48.639 HYPERVISOR: Stopped.
+Nov 21 22:54:48.639 GENERAL: reset done.
