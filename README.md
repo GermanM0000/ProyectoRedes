@@ -68,15 +68,7 @@ ESW2(config)#exit
 ESW2#
 ```
 
-```sh
-ESW2#conf t
-ESW2(config)#interface range f1/0 - 15
-ESW2(config-if-range)#switchport mode trunk
-ESW2(config-if-range)#exit
-ESW2(config)#exit
-ESW2#
-```
-Para verificar Ingresamos el siguiente comando
+
 
 
 
