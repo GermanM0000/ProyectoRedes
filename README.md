@@ -214,4 +214,56 @@ ESW2#
 
 ![Topología](img/h2.png)
 
-## Topología 2
+![Topologia 2](img/t2.png)
+
+
+|   Host    | Conectado a |  Dirección IP  | VLAN  | Virtualizada|
+|----------:|------------:| -------------: |------:|------------:|
+| WindowsXP | Switch1     | 192.168.73.10  |   73  |      SI     |
+|   Linux   | Switch2     | 192.168.63.10  |   63  |      SI     |
+|   Linux   | Switch2     | 192.168.63.20  |   63  |      SI     |
+
+![Direcciones IP](img/IPs.png)
+
+### VTP 
+Modo Server en ESW2:
+
+![VTP Server](img/VTP_ESW2.png)
+
+### VTP 
+
+Modo Cliente 1 en ESW1
+
+![VTP Cliente 1](img/VTP_ESW1.png)
+
+### VTP 
+
+Modo Cliente 2 en ESW3
+
+![VTP Cliente 2](img/VTP_ESW3.png)
+
+### VLAN 63 y 73
+
+![VLAN](img/VLAN.png)
+
+### Enrutamiento
+
+![Enrutamiento](img/Enrutamiento.png)
+
+![Enrutamiento 2](img/Enrutamiento2.png)
+
+### Protocolo HSRP
+ESW1:
+
+![HSRP](img/HSRP1.png)
+
+ESW2:
+
+![HSRP](img/HSRP2.png)
+
+ESW3:
+
+![HSRP](img/HSRP3.png)
+=======
+![Topología](img/h2.png)
+
